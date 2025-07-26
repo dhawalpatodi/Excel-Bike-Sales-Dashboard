@@ -2,7 +2,16 @@
 
 ## Overview
 
-This Excel project analyses a dataset containing customer demographics and their bike purchase behaviour. The goal was to create an interactive dashboard that reveals patterns in who buys bikes and why. The workflow included data cleaning, pivot table creation, visualisations, and dashboard design with slicers.
+This Excel project analyses a dataset containing customer demographics and their bike purchase behaviour. The goal was to create an interactive dashboard that reveals patterns in who buys bikes and why. The process included cleaning the data, building pivot tables, creating visualisations, and designing a dashboard with slicers.
+
+## Dataset Structure and Workflow
+
+The Excel file includes the following sheets:
+
+- **Bike Buyers (Raw Data):** Original dataset containing all customer records  
+- **Working Sheet:** Data cleaning and preparation done here – removed inconsistencies, formatted values, and standardised categories  
+- **Pivot Tables:** Used to summarise key metrics such as purchase counts by age, income, commute distance, and more  
+- **Dashboard:** Final output that pulls together all charts and slicers for interactive exploration
 
 ## Dataset Fields
 
@@ -25,7 +34,7 @@ This Excel project analyses a dataset containing customer demographics and their
 The dashboard includes:
 
 - **Average Income by Gender**  
-  Shows average income for male and female customers, separated by purchase status
+  Displays average income for male and female customers, separated by purchase status
 
 - **Customer Commute Patterns**  
   Analyses commute distance and its relationship to bike purchasing
@@ -34,35 +43,35 @@ The dashboard includes:
   Compares purchasing behaviour across age groups (Middle Age, Old, Young)
 
 - **Bike Purchases by Age**  
-  Detailed chart showing count of bike purchases across individual ages
+  Detailed chart showing number of bike purchases across specific ages
 
 - **Interactive Filters (Slicers)**  
-  Filters data by Gender and Region to explore trends in different customer segments
+  Enables filtering by Gender and Region to explore customer segments
 
 ## Key Insights
 
-- **Higher income customers, particularly males, are more likely to purchase bikes**  
+- **Higher income customers, especially males, are more likely to purchase bikes**  
 - **Customers commuting 5 to 10 miles show the highest likelihood of buying a bike**  
-- **Middle-aged individuals purchase more bikes than younger or older customers**  
-- **Bike purchases tend to decline with age, especially after 50**  
-- **Regional and gender filters allow deeper insight into specific demographic patterns**
+- **Middle-aged individuals purchase more bikes compared to younger or older customers**  
+- **Bike purchases tend to decrease with age, particularly after age 50**  
+- **Slicers allow deep dives into regional and gender-based trends**
 
 ## Files Included
 
-- `Bike_Sales_Dashboard.xlsx` – The Excel file with:
-  - Cleaned and structured data  
+- `Bike_Sales_Dashboard.xlsx` – Excel file with:
+  - Raw dataset  
+  - Cleaned and processed data  
   - Pivot tables  
-  - Charts and visualisations  
-  - Final dashboard with slicers  
-- `README.md` – This documentation file
+  - Dashboard with charts and slicers  
+- `README.md` – Project documentation
 
 ## How to Use
 
 1. Open `Bike_Sales_Dashboard.xlsx` in Microsoft Excel  
 2. Navigate to the **Dashboard** sheet  
-3. Use the slicers to filter by Gender or Region  
-4. Observe how trends change across different customer groups
+3. Use slicers to filter by Gender or Region  
+4. Explore how insights shift across different segments
 
 ## Purpose
 
-This project demonstrates end-to-end data analysis and dashboard development in Excel. It highlights practical skills in data cleaning, pivot table logic, visualisation, and building interactive reports. Ideal for inclusion in a data analytics portfolio.
+This project demonstrates practical Excel skills in data cleaning, pivot table logic, visual storytelling, and dashboard creation. It is designed to serve as a portfolio piece for data analytics roles.
