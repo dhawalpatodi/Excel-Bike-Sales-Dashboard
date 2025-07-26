@@ -1,4 +1,5 @@
 # Excel Dashboard – Bike Sales Analysis
+<img width="603" height="670" alt="image" src="https://github.com/user-attachments/assets/63f3229f-8f3a-4b44-afd3-8643eed7c115" />
 
 ## Overview
 
